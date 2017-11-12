@@ -1,0 +1,1566 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css" />
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css" />
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_bbdfe6869dd74f68bf9e55c6fb794ed8 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_bbdfe6869dd74f68bf9e55c6fb794ed8" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var bounds = null;
+            
+
+            var map_bbdfe6869dd74f68bf9e55c6fb794ed8 = L.map(
+                                  'map_bbdfe6869dd74f68bf9e55c6fb794ed8',
+                                  {center: [20.26,-155.55],
+                                  zoom: 8,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_31bbc53790a44a8fa80fa18bddb05eef = L.tileLayer(
+                'https://{s}.tiles.mapbox.com/v3/mapbox.control-room/{z}/{x}/{y}.png',
+                {
+  "attribution": null,
+  "detectRetina": false,
+  "maxZoom": 18,
+  "minZoom": 1,
+  "noWrap": false,
+  "subdomains": "abc"
+}
+                ).addTo(map_bbdfe6869dd74f68bf9e55c6fb794ed8);
+        
+    
+            var feature_group_466a7c09e6354c61bd88b3fbb7d66a63 = L.featureGroup(
+                ).addTo(map_bbdfe6869dd74f68bf9e55c6fb794ed8);
+        
+    
+            var circle_marker_204f2e525c1b4e0a8580b2f6e96de3e7 = L.circleMarker(
+                [20.26707076100007,-155.85755643099998],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": 1,
+  "weight": 1
+}
+                ).addTo(feature_group_466a7c09e6354c61bd88b3fbb7d66a63);
+            
+    
+            var popup_b69ba2685b8745dc939472aa2eef24c8 = L.popup({maxWidth: '300'});
+
+            
+                var html_e1083f66ce64488683ac9f99329cca63 = $('<div id="html_e1083f66ce64488683ac9f99329cca63" style="width: 100.0%; height: 100.0%;">NORTH KOHALA</div>')[0];
+                popup_b69ba2685b8745dc939472aa2eef24c8.setContent(html_e1083f66ce64488683ac9f99329cca63);
+            
+
+            circle_marker_204f2e525c1b4e0a8580b2f6e96de3e7.bindPopup(popup_b69ba2685b8745dc939472aa2eef24c8);
+
+            
+        
+    
+            var circle_marker_61169372406b47ea9817e3eeb36f099d = L.circleMarker(
+                [20.13347875900007,-155.60628640299998],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": 1,
+  "weight": 1
+}
+                ).addTo(feature_group_466a7c09e6354c61bd88b3fbb7d66a63);
+            
+    
+            var popup_857d042c1b834b3d914e3d8bd7a06daa = L.popup({maxWidth: '300'});
+
+            
+                var html_f7fdefef31824cc3b1bb34869df85f83 = $('<div id="html_f7fdefef31824cc3b1bb34869df85f83" style="width: 100.0%; height: 100.0%;">WAIPIO BAY</div>')[0];
+                popup_857d042c1b834b3d914e3d8bd7a06daa.setContent(html_f7fdefef31824cc3b1bb34869df85f83);
+            
+
+            circle_marker_61169372406b47ea9817e3eeb36f099d.bindPopup(popup_857d042c1b834b3d914e3d8bd7a06daa);
+
+            
+        
+    
+            var circle_marker_1d3cf747949340b983313543d4e0a922 = L.circleMarker(
+                [20.047994636000055,-155.83571579099998],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": 1,
+  "weight": 1
+}
+                ).addTo(feature_group_466a7c09e6354c61bd88b3fbb7d66a63);
+            
+    
+            var popup_94ac574bebeb4bf38f57a41113823e05 = L.popup({maxWidth: '300'});
+
+            
+                var html_448e1e91ac1d4c2f90adfd0b5e845df2 = $('<div id="html_448e1e91ac1d4c2f90adfd0b5e845df2" style="width: 100.0%; height: 100.0%;">SOUTH KOHALA</div>')[0];
+                popup_94ac574bebeb4bf38f57a41113823e05.setContent(html_448e1e91ac1d4c2f90adfd0b5e845df2);
+            
+
+            circle_marker_1d3cf747949340b983313543d4e0a922.bindPopup(popup_94ac574bebeb4bf38f57a41113823e05);
+
+            
+        
+    
+            var circle_marker_d07dff2860574fa7a2e11439af10d95c = L.circleMarker(
+                [19.994598118000056,-155.24766358699998],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": 1,
+  "weight": 1
+}
+                ).addTo(feature_group_466a7c09e6354c61bd88b3fbb7d66a63);
+            
+    
+            var popup_12f16b2adc524aedbe78001cc280f6da = L.popup({maxWidth: '300'});
+
+            
+                var html_edf774409e0341c19c5ae047296d84f9 = $('<div id="html_edf774409e0341c19c5ae047296d84f9" style="width: 100.0%; height: 100.0%;">LAUPAHOEHOE</div>')[0];
+                popup_12f16b2adc524aedbe78001cc280f6da.setContent(html_edf774409e0341c19c5ae047296d84f9);
+            
+
+            circle_marker_d07dff2860574fa7a2e11439af10d95c.bindPopup(popup_12f16b2adc524aedbe78001cc280f6da);
+
+            
+        
+    
+            var circle_marker_23a0410d182a47fc98ec865ce5c33994 = L.circleMarker(
+                [19.905221186000063,-155.13031075199996],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": 1,
+  "weight": 1
+}
+                ).addTo(feature_group_466a7c09e6354c61bd88b3fbb7d66a63);
+            
+    
+            var popup_15e069c23a6342da9bccb6d6d40a3240 = L.popup({maxWidth: '300'});
+
+            
+                var html_13525d7a712d4f218d0dfeac2fa929dd = $('<div id="html_13525d7a712d4f218d0dfeac2fa929dd" style="width: 100.0%; height: 100.0%;">HAKALAU BAY</div>')[0];
+                popup_15e069c23a6342da9bccb6d6d40a3240.setContent(html_13525d7a712d4f218d0dfeac2fa929dd);
+            
+
+            circle_marker_23a0410d182a47fc98ec865ce5c33994.bindPopup(popup_15e069c23a6342da9bccb6d6d40a3240);
+
+            
+        
+    
+            var circle_marker_71cd24309eeb42edbdfd1f31429faaae = L.circleMarker(
+                [19.883623026000066,-155.11958261399997],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": 1,
+  "weight": 1
+}
+                ).addTo(feature_group_466a7c09e6354c61bd88b3fbb7d66a63);
+            
+    
+            var popup_327e072ca339462db44976bd6765eb40 = L.popup({maxWidth: '300'});
+
+            
+                var html_5a9bbc4781624f44a7527689efff7747 = $('<div id="html_5a9bbc4781624f44a7527689efff7747" style="width: 100.0%; height: 100.0%;">WAILEA</div>')[0];
+                popup_327e072ca339462db44976bd6765eb40.setContent(html_5a9bbc4781624f44a7527689efff7747);
+            
+
+            circle_marker_71cd24309eeb42edbdfd1f31429faaae.bindPopup(popup_327e072ca339462db44976bd6765eb40);
+
+            
+        
+    
+            var circle_marker_e173f1afd8714545aacb5f811bef1fbf = L.circleMarker(
+                [19.88723600000003,-155.90489421799998],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": 1,
+  "weight": 1
+}
+                ).addTo(feature_group_466a7c09e6354c61bd88b3fbb7d66a63);
+            
+    
+            var popup_d31ffe86a4f848e6bb48ed1608e36175 = L.popup({maxWidth: '300'});
+
+            
+                var html_2b6bbd4618684f6eaf309fd5039712d9 = $('<div id="html_2b6bbd4618684f6eaf309fd5039712d9" style="width: 100.0%; height: 100.0%;">KAILUA BAY TO KIHOLO BAY</div>')[0];
+                popup_d31ffe86a4f848e6bb48ed1608e36175.setContent(html_2b6bbd4618684f6eaf309fd5039712d9);
+            
+
+            circle_marker_e173f1afd8714545aacb5f811bef1fbf.bindPopup(popup_d31ffe86a4f848e6bb48ed1608e36175);
+
+            
+        
+    
+            var circle_marker_92037d4ee6c44b3a896d582a8b65f351 = L.circleMarker(
+                [19.73446062000005,-155.03066471999998],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": 1,
+  "weight": 1
+}
+                ).addTo(feature_group_466a7c09e6354c61bd88b3fbb7d66a63);
+            
+    
+            var popup_b9d6bd5f69314ff895a72bfe72dec4c6 = L.popup({maxWidth: '300'});
+
+            
+                var html_9e81f3254c18481ba8f0ff39dc4a4535 = $('<div id="html_9e81f3254c18481ba8f0ff39dc4a4535" style="width: 100.0%; height: 100.0%;">HILO - PART 2</div>')[0];
+                popup_b9d6bd5f69314ff895a72bfe72dec4c6.setContent(html_9e81f3254c18481ba8f0ff39dc4a4535);
+            
+
+            circle_marker_92037d4ee6c44b3a896d582a8b65f351.bindPopup(popup_b9d6bd5f69314ff895a72bfe72dec4c6);
+
+            
+        
+    
+            var circle_marker_ed9f15449c4f4a8884fe7402a870b336 = L.circleMarker(
+                [19.71762687300003,-155.06020895599997],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": 1,
+  "weight": 1
+}
+                ).addTo(feature_group_466a7c09e6354c61bd88b3fbb7d66a63);
+            
+    
+            var popup_cda99a153a5d4aafa496bf88e0290ef1 = L.popup({maxWidth: '300'});
+
+            
+                var html_19b644c803884d20b7bda50ea2df518c = $('<div id="html_19b644c803884d20b7bda50ea2df518c" style="width: 100.0%; height: 100.0%;">HILO - PART 1</div>')[0];
+                popup_cda99a153a5d4aafa496bf88e0290ef1.setContent(html_19b644c803884d20b7bda50ea2df518c);
+            
+
+            circle_marker_ed9f15449c4f4a8884fe7402a870b336.bindPopup(popup_cda99a153a5d4aafa496bf88e0290ef1);
+
+            
+        
+    
+            var circle_marker_2fcccd8b55dc4ef68e355a36367b499c = L.circleMarker(
+                [19.729341348000048,-154.99819375299998],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": 1,
+  "weight": 1
+}
+                ).addTo(feature_group_466a7c09e6354c61bd88b3fbb7d66a63);
+            
+    
+            var popup_81889dadee6946979369af6cb8ad5ed7 = L.popup({maxWidth: '300'});
+
+            
+                var html_e062d74d3368496ca120439e9b4b0663 = $('<div id="html_e062d74d3368496ca120439e9b4b0663" style="width: 100.0%; height: 100.0%;">SOUTH HILO / PUNA</div>')[0];
+                popup_81889dadee6946979369af6cb8ad5ed7.setContent(html_e062d74d3368496ca120439e9b4b0663);
+            
+
+            circle_marker_2fcccd8b55dc4ef68e355a36367b499c.bindPopup(popup_81889dadee6946979369af6cb8ad5ed7);
+
+            
+        
+    
+            var circle_marker_b46a1b2187064b9c88d93c2631671b78 = L.circleMarker(
+                [19.644767001000048,-156.00854168999996],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": 1,
+  "weight": 1
+}
+                ).addTo(feature_group_466a7c09e6354c61bd88b3fbb7d66a63);
+            
+    
+            var popup_cedf9c6378bb4697b5c6c478db6b598d = L.popup({maxWidth: '300'});
+
+            
+                var html_bfbf27f58a2e4376a418a5b07c1fb7fe = $('<div id="html_bfbf27f58a2e4376a418a5b07c1fb7fe" style="width: 100.0%; height: 100.0%;">KEAUHOU TO KAILUA</div>')[0];
+                popup_cedf9c6378bb4697b5c6c478db6b598d.setContent(html_bfbf27f58a2e4376a418a5b07c1fb7fe);
+            
+
+            circle_marker_b46a1b2187064b9c88d93c2631671b78.bindPopup(popup_cedf9c6378bb4697b5c6c478db6b598d);
+
+            
+        
+    
+            var circle_marker_c5101e806362470095f578c2853cc9fe = L.circleMarker(
+                [19.552129303000072,-155.95830386699998],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": 1,
+  "weight": 1
+}
+                ).addTo(feature_group_466a7c09e6354c61bd88b3fbb7d66a63);
+            
+    
+            var popup_39b9faade79545278007632c739c649f = L.popup({maxWidth: '300'});
+
+            
+                var html_426880f16f9243c0aac0d1d0d1bd482c = $('<div id="html_426880f16f9243c0aac0d1d0d1bd482c" style="width: 100.0%; height: 100.0%;">KEALAKEKUA TO KAILUA</div>')[0];
+                popup_39b9faade79545278007632c739c649f.setContent(html_426880f16f9243c0aac0d1d0d1bd482c);
+            
+
+            circle_marker_c5101e806362470095f578c2853cc9fe.bindPopup(popup_39b9faade79545278007632c739c649f);
+
+            
+        
+    
+            var circle_marker_7723d2daaa2a4188be7ec2fdf4806365 = L.circleMarker(
+                [19.488168246000043,-155.93971865699996],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": 1,
+  "weight": 1
+}
+                ).addTo(feature_group_466a7c09e6354c61bd88b3fbb7d66a63);
+            
+    
+            var popup_2733cfd1b1bd49068c950db6c9875c05 = L.popup({maxWidth: '300'});
+
+            
+                var html_616bb1e16ac04fa7b67096507b6945f2 = $('<div id="html_616bb1e16ac04fa7b67096507b6945f2" style="width: 100.0%; height: 100.0%;">MILOLII TO KEALAKEKUA</div>')[0];
+                popup_2733cfd1b1bd49068c950db6c9875c05.setContent(html_616bb1e16ac04fa7b67096507b6945f2);
+            
+
+            circle_marker_7723d2daaa2a4188be7ec2fdf4806365.bindPopup(popup_2733cfd1b1bd49068c950db6c9875c05);
+
+            
+        
+    
+            var circle_marker_22c5106deea849caa5c9f73bf165bbd3 = L.circleMarker(
+                [19.435045296000055,-154.86639147699998],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": 1,
+  "weight": 1
+}
+                ).addTo(feature_group_466a7c09e6354c61bd88b3fbb7d66a63);
+            
+    
+            var popup_3a7b97bb7bc14ce0806f762221503800 = L.popup({maxWidth: '300'});
+
+            
+                var html_b2e4973ac5fe415986eb1aaef432ce50 = $('<div id="html_b2e4973ac5fe415986eb1aaef432ce50" style="width: 100.0%; height: 100.0%;">OPIHIKAO TO KAU / PUNA</div>')[0];
+                popup_3a7b97bb7bc14ce0806f762221503800.setContent(html_b2e4973ac5fe415986eb1aaef432ce50);
+            
+
+            circle_marker_22c5106deea849caa5c9f73bf165bbd3.bindPopup(popup_3a7b97bb7bc14ce0806f762221503800);
+
+            
+        
+    
+            var circle_marker_deefd7a008644467a03b147be231bf96 = L.circleMarker(
+                [19.13858793600002,-155.49375259399997],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": 1,
+  "weight": 1
+}
+                ).addTo(feature_group_466a7c09e6354c61bd88b3fbb7d66a63);
+            
+    
+            var popup_b6299b694f464a09b14b6f9d5a614476 = L.popup({maxWidth: '300'});
+
+            
+                var html_4747b73a825d431ca421593601e88fcd = $('<div id="html_4747b73a825d431ca421593601e88fcd" style="width: 100.0%; height: 100.0%;">PUNALUU TO HONUAPO / KAU</div>')[0];
+                popup_b6299b694f464a09b14b6f9d5a614476.setContent(html_4747b73a825d431ca421593601e88fcd);
+            
+
+            circle_marker_deefd7a008644467a03b147be231bf96.bindPopup(popup_b6299b694f464a09b14b6f9d5a614476);
+
+            
+        
+    
+            var circle_marker_06249fb3a4424bc8961df59dad7ca73f = L.circleMarker(
+                [19.09629162400006,-155.53654789399997],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": 1,
+  "weight": 1
+}
+                ).addTo(feature_group_466a7c09e6354c61bd88b3fbb7d66a63);
+            
+    
+            var popup_0fa79a40355a4a92bc63a98467b72b30 = L.popup({maxWidth: '300'});
+
+            
+                var html_b1a32a93212748238c1da39584c8b417 = $('<div id="html_b1a32a93212748238c1da39584c8b417" style="width: 100.0%; height: 100.0%;">PUNALUU TO HONUAPO / KAU</div>')[0];
+                popup_0fa79a40355a4a92bc63a98467b72b30.setContent(html_b1a32a93212748238c1da39584c8b417);
+            
+
+            circle_marker_06249fb3a4424bc8961df59dad7ca73f.bindPopup(popup_0fa79a40355a4a92bc63a98467b72b30);
+
+            
+        
+    
+            var circle_marker_e79747b4f64b47f890affad4e5cc48f1 = L.circleMarker(
+                [21.21134763500004,-156.96912025099996],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": 1,
+  "weight": 1
+}
+                ).addTo(feature_group_466a7c09e6354c61bd88b3fbb7d66a63);
+            
+    
+            var popup_b3cd5d3458314fb3b5a83d174391e792 = L.popup({maxWidth: '300'});
+
+            
+                var html_644220cf8b3a4ffeb0b6ca6e5361a8e2 = $('<div id="html_644220cf8b3a4ffeb0b6ca6e5361a8e2" style="width: 100.0%; height: 100.0%;">KALAUPAPA TO KAUPIKIAWA</div>')[0];
+                popup_b3cd5d3458314fb3b5a83d174391e792.setContent(html_644220cf8b3a4ffeb0b6ca6e5361a8e2);
+            
+
+            circle_marker_e79747b4f64b47f890affad4e5cc48f1.bindPopup(popup_b3cd5d3458314fb3b5a83d174391e792);
+
+            
+        
+    
+            var circle_marker_dcd311a7928a47f3b051643ddebad5d0 = L.circleMarker(
+                [21.194461052000065,-157.24828194199998],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": 1,
+  "weight": 1
+}
+                ).addTo(feature_group_466a7c09e6354c61bd88b3fbb7d66a63);
+            
+    
+            var popup_2998c70d45914b9389e311a09c8476f6 = L.popup({maxWidth: '300'});
+
+            
+                var html_700e7cd4b1b54d50904c21b83b08137b = $('<div id="html_700e7cd4b1b54d50904c21b83b08137b" style="width: 100.0%; height: 100.0%;">POHAKUMAULIULI</div>')[0];
+                popup_2998c70d45914b9389e311a09c8476f6.setContent(html_700e7cd4b1b54d50904c21b83b08137b);
+            
+
+            circle_marker_dcd311a7928a47f3b051643ddebad5d0.bindPopup(popup_2998c70d45914b9389e311a09c8476f6);
+
+            
+        
+    
+            var circle_marker_6275d30982d747eaa17f390bfd609f02 = L.circleMarker(
+                [21.15936243400006,-156.73250731199997],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": 1,
+  "weight": 1
+}
+                ).addTo(feature_group_466a7c09e6354c61bd88b3fbb7d66a63);
+            
+    
+            var popup_b7b0a764eb8a4141ba42a01717bc08c3 = L.popup({maxWidth: '300'});
+
+            
+                var html_8b37c271a37547e39ecf2b010e776c77 = $('<div id="html_8b37c271a37547e39ecf2b010e776c77" style="width: 100.0%; height: 100.0%;">HALAWA</div>')[0];
+                popup_b7b0a764eb8a4141ba42a01717bc08c3.setContent(html_8b37c271a37547e39ecf2b010e776c77);
+            
+
+            circle_marker_6275d30982d747eaa17f390bfd609f02.bindPopup(popup_b7b0a764eb8a4141ba42a01717bc08c3);
+
+            
+        
+    
+            var circle_marker_bd3e4c22e78644d7a509010ceff8d531 = L.circleMarker(
+                [21.06277149500005,-156.82693857399997],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": 1,
+  "weight": 1
+}
+                ).addTo(feature_group_466a7c09e6354c61bd88b3fbb7d66a63);
+            
+    
+            var popup_7f70d13032264d22994973b153d74073 = L.popup({maxWidth: '300'});
+
+            
+                var html_fa46f873fa36456e9c8279fc62c76bd9 = $('<div id="html_fa46f873fa36456e9c8279fc62c76bd9" style="width: 100.0%; height: 100.0%;">KAALAEA TO UALAPUE</div>')[0];
+                popup_7f70d13032264d22994973b153d74073.setContent(html_fa46f873fa36456e9c8279fc62c76bd9);
+            
+
+            circle_marker_bd3e4c22e78644d7a509010ceff8d531.bindPopup(popup_7f70d13032264d22994973b153d74073);
+
+            
+        
+    
+            var circle_marker_9055a4ed83964a5f8230157157f333bf = L.circleMarker(
+                [21.060347057000058,-156.93051928899996],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": 1,
+  "weight": 1
+}
+                ).addTo(feature_group_466a7c09e6354c61bd88b3fbb7d66a63);
+            
+    
+            var popup_db2fc46fb41f4f3b926747ebb000e410 = L.popup({maxWidth: '300'});
+
+            
+                var html_90205ead764541e0859e38b786a10006 = $('<div id="html_90205ead764541e0859e38b786a10006" style="width: 100.0%; height: 100.0%;">KAPUKAULUA TO KAUNAKAKAI</div>')[0];
+                popup_db2fc46fb41f4f3b926747ebb000e410.setContent(html_90205ead764541e0859e38b786a10006);
+            
+
+            circle_marker_9055a4ed83964a5f8230157157f333bf.bindPopup(popup_db2fc46fb41f4f3b926747ebb000e410);
+
+            
+        
+    
+            var circle_marker_74c11085c49e4ef393f2e603d886405a = L.circleMarker(
+                [21.092130317000056,-157.26741915099998],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": 1,
+  "weight": 1
+}
+                ).addTo(feature_group_466a7c09e6354c61bd88b3fbb7d66a63);
+            
+    
+            var popup_897aff2db63a43b7b921723e88fa2fcb = L.popup({maxWidth: '300'});
+
+            
+                var html_cd5cba10346745d686181acd4fb13075 = $('<div id="html_cd5cba10346745d686181acd4fb13075" style="width: 100.0%; height: 100.0%;">HALENA TO KAPUKUWAHINE</div>')[0];
+                popup_897aff2db63a43b7b921723e88fa2fcb.setContent(html_cd5cba10346745d686181acd4fb13075);
+            
+
+            circle_marker_74c11085c49e4ef393f2e603d886405a.bindPopup(popup_897aff2db63a43b7b921723e88fa2fcb);
+
+            
+        
+    
+            var circle_marker_0b581be01d434152b29e0cbe33d82fe2 = L.circleMarker(
+                [21.060910656000033,-156.82584106799996],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": 1,
+  "weight": 1
+}
+                ).addTo(feature_group_466a7c09e6354c61bd88b3fbb7d66a63);
+            
+    
+            var popup_02624dc1f5a44e569976eae4bd1c2794 = L.popup({maxWidth: '300'});
+
+            
+                var html_161cc0e24e8c47028a1ccc9d34fc7532 = $('<div id="html_161cc0e24e8c47028a1ccc9d34fc7532" style="width: 100.0%; height: 100.0%;">UALAPUE TO KAPUKAULUA</div>')[0];
+                popup_02624dc1f5a44e569976eae4bd1c2794.setContent(html_161cc0e24e8c47028a1ccc9d34fc7532);
+            
+
+            circle_marker_0b581be01d434152b29e0cbe33d82fe2.bindPopup(popup_02624dc1f5a44e569976eae4bd1c2794);
+
+            
+        
+    
+            var circle_marker_45090be4a3a2493fa78daceb7166285d = L.circleMarker(
+                [21.02520886600007,-156.63383529999996],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": 1,
+  "weight": 1
+}
+                ).addTo(feature_group_466a7c09e6354c61bd88b3fbb7d66a63);
+            
+    
+            var popup_800fe912dfbb4b858d9225e9056c192f = L.popup({maxWidth: '300'});
+
+            
+                var html_bbfcc01c0ce14431a454b85a5527f689 = $('<div id="html_bbfcc01c0ce14431a454b85a5527f689" style="width: 100.0%; height: 100.0%;">KALEIA KEALEKII PT. TO KEAWALUA</div>')[0];
+                popup_800fe912dfbb4b858d9225e9056c192f.setContent(html_bbfcc01c0ce14431a454b85a5527f689);
+            
+
+            circle_marker_45090be4a3a2493fa78daceb7166285d.bindPopup(popup_800fe912dfbb4b858d9225e9056c192f);
+
+            
+        
+    
+            var circle_marker_588cfda064dd432f83ee1e296648384c = L.circleMarker(
+                [20.99402189600005,-156.66518755199996],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": 1,
+  "weight": 1
+}
+                ).addTo(feature_group_466a7c09e6354c61bd88b3fbb7d66a63);
+            
+    
+            var popup_b1fb3789e40941d199a175c64c3e3bf4 = L.popup({maxWidth: '300'});
+
+            
+                var html_dd64b4c0e6814d39929beaa672129153 = $('<div id="html_dd64b4c0e6814d39929beaa672129153" style="width: 100.0%; height: 100.0%;">HANAKAOO TO KAELEKII PT.</div>')[0];
+                popup_b1fb3789e40941d199a175c64c3e3bf4.setContent(html_dd64b4c0e6814d39929beaa672129153);
+            
+
+            circle_marker_588cfda064dd432f83ee1e296648384c.bindPopup(popup_b1fb3789e40941d199a175c64c3e3bf4);
+
+            
+        
+    
+            var circle_marker_d6633b2f625c4925928585824b500007 = L.circleMarker(
+                [20.90439474300007,-156.43289256599996],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": 1,
+  "weight": 1
+}
+                ).addTo(feature_group_466a7c09e6354c61bd88b3fbb7d66a63);
+            
+    
+            var popup_ff2e7a93b50e4a71aaec0d5cc6584407 = L.popup({maxWidth: '300'});
+
+            
+                var html_4106f49fae194c24b142628e3121481b = $('<div id="html_4106f49fae194c24b142628e3121481b" style="width: 100.0%; height: 100.0%;">KANAHA BEACH PARK TO MALIKO GULCH</div>')[0];
+                popup_ff2e7a93b50e4a71aaec0d5cc6584407.setContent(html_4106f49fae194c24b142628e3121481b);
+            
+
+            circle_marker_d6633b2f625c4925928585824b500007.bindPopup(popup_ff2e7a93b50e4a71aaec0d5cc6584407);
+
+            
+        
+    
+            var circle_marker_95a67f412416490688d13951d9d53e8a = L.circleMarker(
+                [20.90439474300007,-156.43289256599996],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": 1,
+  "weight": 1
+}
+                ).addTo(feature_group_466a7c09e6354c61bd88b3fbb7d66a63);
+            
+    
+            var popup_c39e8de39c794de6a70382c9b0a965cc = L.popup({maxWidth: '300'});
+
+            
+                var html_3a6b85132a6246949e9afde7c3d68d0f = $('<div id="html_3a6b85132a6246949e9afde7c3d68d0f" style="width: 100.0%; height: 100.0%;">WAIEHU PT. TO KANAHA BEACH PARK</div>')[0];
+                popup_c39e8de39c794de6a70382c9b0a965cc.setContent(html_3a6b85132a6246949e9afde7c3d68d0f);
+            
+
+            circle_marker_95a67f412416490688d13951d9d53e8a.bindPopup(popup_c39e8de39c794de6a70382c9b0a965cc);
+
+            
+        
+    
+            var circle_marker_0eeb8a3fbd70414d8618aa9552167129 = L.circleMarker(
+                [20.912690041000076,-156.89782202399996],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": 1,
+  "weight": 1
+}
+                ).addTo(feature_group_466a7c09e6354c61bd88b3fbb7d66a63);
+            
+    
+            var popup_7fd9ccb1a06d404389e3983e281da109 = L.popup({maxWidth: '300'});
+
+            
+                var html_a953821a785347f18a5b18b03757502b = $('<div id="html_a953821a785347f18a5b18b03757502b" style="width: 100.0%; height: 100.0%;">POHAKULOA PT. TO KAIOLOHIA BAY</div>')[0];
+                popup_7fd9ccb1a06d404389e3983e281da109.setContent(html_a953821a785347f18a5b18b03757502b);
+            
+
+            circle_marker_0eeb8a3fbd70414d8618aa9552167129.bindPopup(popup_7fd9ccb1a06d404389e3983e281da109);
+
+            
+        
+    
+            var circle_marker_a1c343bd255a4a578284a42d0f47b308 = L.circleMarker(
+                [20.91085307900005,-156.68822723899996],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": 1,
+  "weight": 1
+}
+                ).addTo(feature_group_466a7c09e6354c61bd88b3fbb7d66a63);
+            
+    
+            var popup_4b3d6d1dc88a4783a095c8d90d7cc285 = L.popup({maxWidth: '300'});
+
+            
+                var html_45055fd7f2644e619861def1fca1188d = $('<div id="html_45055fd7f2644e619861def1fca1188d" style="width: 100.0%; height: 100.0%;">LAUNIUPOKO PT. TO WAHIKULI STATE WAYSIDE PARK</div>')[0];
+                popup_4b3d6d1dc88a4783a095c8d90d7cc285.setContent(html_45055fd7f2644e619861def1fca1188d);
+            
+
+            circle_marker_a1c343bd255a4a578284a42d0f47b308.bindPopup(popup_4b3d6d1dc88a4783a095c8d90d7cc285);
+
+            
+        
+    
+            var circle_marker_3a53f399bf4a45cc8223fa1e08abc28e = L.circleMarker(
+                [20.912690041000076,-156.89782202399996],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": 1,
+  "weight": 1
+}
+                ).addTo(feature_group_466a7c09e6354c61bd88b3fbb7d66a63);
+            
+    
+            var popup_cead7c77e6f246569b700106f1a52d65 = L.popup({maxWidth: '300'});
+
+            
+                var html_9d955fdba05140109e81230ec916027e = $('<div id="html_9d955fdba05140109e81230ec916027e" style="width: 100.0%; height: 100.0%;">KAIOLOHIA BAY TO HAUA</div>')[0];
+                popup_cead7c77e6f246569b700106f1a52d65.setContent(html_9d955fdba05140109e81230ec916027e);
+            
+
+            circle_marker_3a53f399bf4a45cc8223fa1e08abc28e.bindPopup(popup_cead7c77e6f246569b700106f1a52d65);
+
+            
+        
+    
+            var circle_marker_6b571abf0a7a4d4fb753e86aade6db84 = L.circleMarker(
+                [20.859566078000057,-156.83283131799996],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": 1,
+  "weight": 1
+}
+                ).addTo(feature_group_466a7c09e6354c61bd88b3fbb7d66a63);
+            
+    
+            var popup_681a0d7835ec4a9789a1d6abb5cf3f47 = L.popup({maxWidth: '300'});
+
+            
+                var html_6c2f2b484e4e46129c34dc096728ad6c = $('<div id="html_6c2f2b484e4e46129c34dc096728ad6c" style="width: 100.0%; height: 100.0%;">HAUA TO KAPOHO</div>')[0];
+                popup_681a0d7835ec4a9789a1d6abb5cf3f47.setContent(html_6c2f2b484e4e46129c34dc096728ad6c);
+            
+
+            circle_marker_6b571abf0a7a4d4fb753e86aade6db84.bindPopup(popup_681a0d7835ec4a9789a1d6abb5cf3f47);
+
+            
+        
+    
+            var circle_marker_e2eeaba22d2a40ae821f8c7ff97d0817 = L.circleMarker(
+                [20.836196108000024,-156.64809598299996],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": 1,
+  "weight": 1
+}
+                ).addTo(feature_group_466a7c09e6354c61bd88b3fbb7d66a63);
+            
+    
+            var popup_020e2913150e4a8bb05a8e3e9d13191d = L.popup({maxWidth: '300'});
+
+            
+                var html_e435b89952fd4bfeb871b7bf35b033d3 = $('<div id="html_e435b89952fd4bfeb871b7bf35b033d3" style="width: 100.0%; height: 100.0%;">UKUMEHAME BEACH PARK TO LAUNIUPOKO PT.</div>')[0];
+                popup_020e2913150e4a8bb05a8e3e9d13191d.setContent(html_e435b89952fd4bfeb871b7bf35b033d3);
+            
+
+            circle_marker_e2eeaba22d2a40ae821f8c7ff97d0817.bindPopup(popup_020e2913150e4a8bb05a8e3e9d13191d);
+
+            
+        
+    
+            var circle_marker_7e497c59c00144fca16c243d155ff1af = L.circleMarker(
+                [20.79836277800007,-156.01771781999997],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": 1,
+  "weight": 1
+}
+                ).addTo(feature_group_466a7c09e6354c61bd88b3fbb7d66a63);
+            
+    
+            var popup_21d9e6ea5b4c450ba9ce5ef1918d737f = L.popup({maxWidth: '300'});
+
+            
+                var html_c2a4d417561a4ef89547e5e36f9bfc11 = $('<div id="html_c2a4d417561a4ef89547e5e36f9bfc11" style="width: 100.0%; height: 100.0%;">HANA</div>')[0];
+                popup_21d9e6ea5b4c450ba9ce5ef1918d737f.setContent(html_c2a4d417561a4ef89547e5e36f9bfc11);
+            
+
+            circle_marker_7e497c59c00144fca16c243d155ff1af.bindPopup(popup_21d9e6ea5b4c450ba9ce5ef1918d737f);
+
+            
+        
+    
+            var circle_marker_592e71bd2c414cd7ac6b746add8f5113 = L.circleMarker(
+                [20.792503430000068,-156.56828235799998],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": 1,
+  "weight": 1
+}
+                ).addTo(feature_group_466a7c09e6354c61bd88b3fbb7d66a63);
+            
+    
+            var popup_91e7dd6ef1bb4f45aad92b4e038d03c7 = L.popup({maxWidth: '300'});
+
+            
+                var html_3445e567d56b451ab630477e09db40d1 = $('<div id="html_3445e567d56b451ab630477e09db40d1" style="width: 100.0%; height: 100.0%;">KEALIA TO UKUMEHAME BEACH PARK</div>')[0];
+                popup_91e7dd6ef1bb4f45aad92b4e038d03c7.setContent(html_3445e567d56b451ab630477e09db40d1);
+            
+
+            circle_marker_592e71bd2c414cd7ac6b746add8f5113.bindPopup(popup_91e7dd6ef1bb4f45aad92b4e038d03c7);
+
+            
+        
+    
+            var circle_marker_80b3ef870cc048848c9a1963d4b33d78 = L.circleMarker(
+                [20.790846260000023,-156.47737714599998],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": 1,
+  "weight": 1
+}
+                ).addTo(feature_group_466a7c09e6354c61bd88b3fbb7d66a63);
+            
+    
+            var popup_b78b303c9d0c4bd0b9968074ac1fdd27 = L.popup({maxWidth: '300'});
+
+            
+                var html_f65b1e277e3143abb9a9810378c43be4 = $('<div id="html_f65b1e277e3143abb9a9810378c43be4" style="width: 100.0%; height: 100.0%;">KAMAOLE BEACH PARK TO KEALIA</div>')[0];
+                popup_b78b303c9d0c4bd0b9968074ac1fdd27.setContent(html_f65b1e277e3143abb9a9810378c43be4);
+            
+
+            circle_marker_80b3ef870cc048848c9a1963d4b33d78.bindPopup(popup_b78b303c9d0c4bd0b9968074ac1fdd27);
+
+            
+        
+    
+            var circle_marker_cf2a157810ad476b920b3a445bb690cb = L.circleMarker(
+                [20.78937329000007,-156.98957474799997],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": 1,
+  "weight": 1
+}
+                ).addTo(feature_group_466a7c09e6354c61bd88b3fbb7d66a63);
+            
+    
+            var popup_3827aad76dd8452898bf80da73b8a170 = L.popup({maxWidth: '300'});
+
+            
+                var html_7ade186dd5d24bcd9d5fa696ed2e96d8 = $('<div id="html_7ade186dd5d24bcd9d5fa696ed2e96d8" style="width: 100.0%; height: 100.0%;">KAUMALAPAU HARBOR</div>')[0];
+                popup_3827aad76dd8452898bf80da73b8a170.setContent(html_7ade186dd5d24bcd9d5fa696ed2e96d8);
+            
+
+            circle_marker_cf2a157810ad476b920b3a445bb690cb.bindPopup(popup_3827aad76dd8452898bf80da73b8a170);
+
+            
+        
+    
+            var circle_marker_63d835bddc6f4a1283d644ba37dfdea6 = L.circleMarker(
+                [20.780607133000046,-156.99045698199998],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": 1,
+  "weight": 1
+}
+                ).addTo(feature_group_466a7c09e6354c61bd88b3fbb7d66a63);
+            
+    
+            var popup_2e2b4cbfcd6744b5b33b043250811119 = L.popup({maxWidth: '300'});
+
+            
+                var html_2e00cf7f618f43818ab260d1c3239e70 = $('<div id="html_2e00cf7f618f43818ab260d1c3239e70" style="width: 100.0%; height: 100.0%;">KAUMALAPAU HARBOR</div>')[0];
+                popup_2e2b4cbfcd6744b5b33b043250811119.setContent(html_2e00cf7f618f43818ab260d1c3239e70);
+            
+
+            circle_marker_63d835bddc6f4a1283d644ba37dfdea6.bindPopup(popup_2e2b4cbfcd6744b5b33b043250811119);
+
+            
+        
+    
+            var circle_marker_60c9f04a11a84ad18228f1c78fadb9f0 = L.circleMarker(
+                [20.75338760900007,-155.98140934299997],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": 1,
+  "weight": 1
+}
+                ).addTo(feature_group_466a7c09e6354c61bd88b3fbb7d66a63);
+            
+    
+            var popup_aeaddf98c9774210937d5e0aba0c8f42 = L.popup({maxWidth: '300'});
+
+            
+                var html_f898ef571768495da49fc7024362ac8f = $('<div id="html_f898ef571768495da49fc7024362ac8f" style="width: 100.0%; height: 100.0%;">HANA</div>')[0];
+                popup_aeaddf98c9774210937d5e0aba0c8f42.setContent(html_f898ef571768495da49fc7024362ac8f);
+            
+
+            circle_marker_60c9f04a11a84ad18228f1c78fadb9f0.bindPopup(popup_aeaddf98c9774210937d5e0aba0c8f42);
+
+            
+        
+    
+            var circle_marker_0fab52d18cfb49909fcb8861b11fc0bf = L.circleMarker(
+                [20.74507586800007,-156.88528760199998],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": 1,
+  "weight": 1
+}
+                ).addTo(feature_group_466a7c09e6354c61bd88b3fbb7d66a63);
+            
+    
+            var popup_283ca6bcf271468cbfcf948fa5b84190 = L.popup({maxWidth: '300'});
+
+            
+                var html_b317d903b4fd4d189b70f006de5deadb = $('<div id="html_b317d903b4fd4d189b70f006de5deadb" style="width: 100.0%; height: 100.0%;">MANELE BAY TO KAPIHUA BAY</div>')[0];
+                popup_283ca6bcf271468cbfcf948fa5b84190.setContent(html_b317d903b4fd4d189b70f006de5deadb);
+            
+
+            circle_marker_0fab52d18cfb49909fcb8861b11fc0bf.bindPopup(popup_283ca6bcf271468cbfcf948fa5b84190);
+
+            
+        
+    
+            var circle_marker_a78ea3967eeb4a428ee54774ce28aa5b = L.circleMarker(
+                [20.721338588000037,-156.44723292799998],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": 1,
+  "weight": 1
+}
+                ).addTo(feature_group_466a7c09e6354c61bd88b3fbb7d66a63);
+            
+    
+            var popup_32204fe19a6840fbbabba901a8682065 = L.popup({maxWidth: '300'});
+
+            
+                var html_a770e10a1af14c72875fb453f7d12e3e = $('<div id="html_a770e10a1af14c72875fb453f7d12e3e" style="width: 100.0%; height: 100.0%;">PUU OLAI TO KAMAOLE BEACH PARK</div>')[0];
+                popup_32204fe19a6840fbbabba901a8682065.setContent(html_a770e10a1af14c72875fb453f7d12e3e);
+            
+
+            circle_marker_a78ea3967eeb4a428ee54774ce28aa5b.bindPopup(popup_32204fe19a6840fbbabba901a8682065);
+
+            
+        
+    
+            var circle_marker_ab7ebda9a0fb415b94d385947b3ccbe9 = L.circleMarker(
+                [20.857119110000042,-156.14463709599997],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": 1,
+  "weight": 1
+}
+                ).addTo(feature_group_466a7c09e6354c61bd88b3fbb7d66a63);
+            
+    
+            var popup_8f29e99032944a4186a2c31478a3ace1 = L.popup({maxWidth: '300'});
+
+            
+                var html_4479ff4a7b7b425f98b597621d7bae8f = $('<div id="html_4479ff4a7b7b425f98b597621d7bae8f" style="width: 100.0%; height: 100.0%;">KEANAE</div>')[0];
+                popup_8f29e99032944a4186a2c31478a3ace1.setContent(html_4479ff4a7b7b425f98b597621d7bae8f);
+            
+
+            circle_marker_ab7ebda9a0fb415b94d385947b3ccbe9.bindPopup(popup_8f29e99032944a4186a2c31478a3ace1);
+
+            
+        
+    
+            var circle_marker_d4a2d580e80d44828f01a1ae5ce65df6 = L.circleMarker(
+                [20.999867659000074,-156.55275306499996],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": 1,
+  "weight": 1
+}
+                ).addTo(feature_group_466a7c09e6354c61bd88b3fbb7d66a63);
+            
+    
+            var popup_2a6bdce97f4c42458c9e728d2547bf80 = L.popup({maxWidth: '300'});
+
+            
+                var html_66639ce0c5204227a96c11a84b20d29f = $('<div id="html_66639ce0c5204227a96c11a84b20d29f" style="width: 100.0%; height: 100.0%;">KAHAKULOA</div>')[0];
+                popup_2a6bdce97f4c42458c9e728d2547bf80.setContent(html_66639ce0c5204227a96c11a84b20d29f);
+            
+
+            circle_marker_d4a2d580e80d44828f01a1ae5ce65df6.bindPopup(popup_2a6bdce97f4c42458c9e728d2547bf80);
+
+            
+        
+    
+            var circle_marker_938e82abed104a8f92a2e94ebb570c7c = L.circleMarker(
+                [22.232014132000074,-159.40024007299996],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": 1,
+  "weight": 1
+}
+                ).addTo(feature_group_466a7c09e6354c61bd88b3fbb7d66a63);
+            
+    
+            var popup_7608f657677d485d83730af7392ebc60 = L.popup({maxWidth: '300'});
+
+            
+                var html_e9c5fbc23ecc46c39284707c90d644fd = $('<div id="html_e9c5fbc23ecc46c39284707c90d644fd" style="width: 100.0%; height: 100.0%;">Kau Evac Zone for Tsunami 10/2013 (see KauTsunEvac.shp.xml)</div>')[0];
+                popup_7608f657677d485d83730af7392ebc60.setContent(html_e9c5fbc23ecc46c39284707c90d644fd);
+            
+
+            circle_marker_938e82abed104a8f92a2e94ebb570c7c.bindPopup(popup_7608f657677d485d83730af7392ebc60);
+
+            
+        
+    
+            var circle_marker_1ff8d394ea704aedb3a9d14978b5345b = L.circleMarker(
+                [21.282048067000062,-157.84685504699996],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": 1,
+  "weight": 1
+}
+                ).addTo(feature_group_466a7c09e6354c61bd88b3fbb7d66a63);
+            
+    
+            var popup_03c9f906eec5477c9155891f281a0f32 = L.popup({maxWidth: '300'});
+
+            
+                var html_c70fc8ca1f4b4c6280ec5cf0a6886df3 = $('<div id="html_c70fc8ca1f4b4c6280ec5cf0a6886df3" style="width: 100.0%; height: 100.0%;">nan</div>')[0];
+                popup_03c9f906eec5477c9155891f281a0f32.setContent(html_c70fc8ca1f4b4c6280ec5cf0a6886df3);
+            
+
+            circle_marker_1ff8d394ea704aedb3a9d14978b5345b.bindPopup(popup_03c9f906eec5477c9155891f281a0f32);
+
+            
+        
+    
+            var circle_marker_8b211f608f424a4c8d0c6ba5d19b015d = L.circleMarker(
+                [21.92313326900006,-160.18811085299998],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": 1,
+  "weight": 1
+}
+                ).addTo(feature_group_466a7c09e6354c61bd88b3fbb7d66a63);
+            
+    
+            var popup_982faa5a741f4fb38b2a25cc8dd95894 = L.popup({maxWidth: '300'});
+
+            
+                var html_8d870478441849588bb3c234c1259296 = $('<div id="html_8d870478441849588bb3c234c1259296" style="width: 100.0%; height: 100.0%;">nan</div>')[0];
+                popup_982faa5a741f4fb38b2a25cc8dd95894.setContent(html_8d870478441849588bb3c234c1259296);
+            
+
+            circle_marker_8b211f608f424a4c8d0c6ba5d19b015d.bindPopup(popup_982faa5a741f4fb38b2a25cc8dd95894);
+
+            
+        
+    
+            var layer_control_f09448d4400841b78f90f9a36e8306e5 = {
+                base_layers : { "mapboxcontrolroom" : tile_layer_31bbc53790a44a8fa80fa18bddb05eef, },
+                overlays : { "Tsunami prones" : feature_group_466a7c09e6354c61bd88b3fbb7d66a63, }
+                };
+            L.control.layers(
+                layer_control_f09448d4400841b78f90f9a36e8306e5.base_layers,
+                layer_control_f09448d4400841b78f90f9a36e8306e5.overlays,
+                {position: 'topright',
+                 collapsed: true,
+                 autoZIndex: true
+                }).addTo(map_bbdfe6869dd74f68bf9e55c6fb794ed8);
+        
+</script>
